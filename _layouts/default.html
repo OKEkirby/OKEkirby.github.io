@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+
+
+
 {% include head.html %}
 
 <body id="page-top" class="index">
   {% include nav.html %}
+</div id="page-contents">
   {% include header.html %}
   {% include portfolio_grid.html %}
-  {% include about.html %}
-
+  {% include skills.html %}
   {% if site.contact == "static" %}
   {% include contact_static.html %}
   {% elsif site.contact == "disqus" %}
@@ -15,6 +18,7 @@
   {% else %}
   {% include contact.html %}
   {% endif %}
+</div>
 
   {% include modals.html %}
   {% include js.html %}
