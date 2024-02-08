@@ -1,6 +1,5 @@
 #page-top{
-    background-image: repeating-radial-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2),#1c2619 102% ) !important;
-    background-image: grad
+    background-image: url("/img/back.png");
 }
 
 #page-top > *{
@@ -10,8 +9,10 @@
 
 #portfolio {
     color:  #{{ site.color.text }} !important;
-  
-    
+}
+
+#contact {
+    color:  #{{ site.color.text }} !important;
 }
 
 
@@ -47,3 +48,27 @@ hr.star-primary {
     box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.6);
     font-family: 'cascadia', 'monospace';
 }
+
+
+.link-icons{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+
+  .link-icons i{
+    
+    font-size: 10rem;
+    padding-right: 0.3rem;
+    color:  #{{ site.color.text }}
+  }
+
+    canvas {
+        position: fixed;
+        display: block;
+    }
+
